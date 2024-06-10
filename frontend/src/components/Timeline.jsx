@@ -1,5 +1,5 @@
 import React from 'react';
-import Tweets from './Tweets'; // Adjust the import path as needed
+import Tweets from './Tweets'; 
 
 const Timeline = () => {
   return (

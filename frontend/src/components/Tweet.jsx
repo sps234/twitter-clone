@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faRetweet } from '@fortawesome/free-solid-svg-icons'; // Import icons from the correct category
+import { faHeart, faRetweet } from '@fortawesome/free-solid-svg-icons'; 
 import styled from 'styled-components';
 
 const TweetContainer = styled.div`
@@ -45,8 +45,8 @@ const Tweet = ({ tweet }) => {
         <p>{content}</p>
       </Content>
       <Stats>
-        <span><FontAwesomeIcon icon={faHeart} /> {likes}</span> {/* Use FontAwesomeIcon component to render the heart icon */}
-        <span><FontAwesomeIcon icon={faRetweet} /> {retweets}</span> {/* Use FontAwesomeIcon component to render the retweet icon */}
+        <span><FontAwesomeIcon icon={faHeart} /> {likes}</span>
+        <span><FontAwesomeIcon icon={faRetweet} /> {retweets}</span> 
       </Stats>
     </TweetContainer>
   );

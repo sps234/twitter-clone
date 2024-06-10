@@ -6,8 +6,6 @@ dotenv.config();
 
 import authRoute from "./routes/auth.js";
 
-
-
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log("DB Connection Successfull!"))
